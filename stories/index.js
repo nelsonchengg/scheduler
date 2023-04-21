@@ -177,4 +177,18 @@ storiesOf("Appointment", module)
   message="Could not delete appointment"
   onClose={action("onClose")}
   />
+  )
+  .add("Edit", () => <Edit
+  student={"Nelson Cheng"}
+  interviewer={3}
+  interviewers={interviewers}
+  onSave={action("onSave")}
+  onCancel={action("onCancel")}
+  />
+  )
+  .add("Create", () => <Create
+  interviewers={interviewers}
+  onSave={action("onSave")}
+  onCancel={action("onCancel")}
+  />
   );
