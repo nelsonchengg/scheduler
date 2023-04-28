@@ -1,5 +1,9 @@
 # Interview Scheduler
 
+## Description
+
+Scheduler is a single page scheduling app designed to book appointments for interviewers. Created by a student in LighthouseLab to learn how to create applications with React.
+
 ## Setup
 
 Install dependencies with `npm install`.
